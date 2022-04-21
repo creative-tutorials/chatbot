@@ -46,5 +46,5 @@ Other Funtions include
     <i class="fa-solid fa-circle-envelope"></i>
     <a href="mailto:treasureedesemhen500@gmail.com">Email Me</a>
     <i class="fa-brands fa-github"></i>
-    <a href="https://github.com/creative-tutorials">My GitHub Profile</a>
+    <a href="https://github.com/creative-tutorials" target="_blank">My GitHub Profile</a>
 </div>
