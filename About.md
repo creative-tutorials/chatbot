@@ -40,12 +40,9 @@ Other Funtions include
         Setting limit to some bad words - if the user input contains some bad words the bot will warn the user and status will be set to inactive
     </li>
 
+
+<div>
 <h4>Love to Hear From You.</h4>
-    <p>
-            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-            <a href="mailto:treasureedesemhen500@gmail.com"></a>
-    </p>
-    <p>
-            <i class="fa fa-github" aria-hidden="true"></i>
-            <a href="https://github.com/creative-tutorials>"></a>
-    </p>
+    <a href="mailto:treasureedesemhen500@gmail.com">Email Me</a>
+    <a href="https://github.com/creative-tutorials">My GitHub Profile</a>
+</div>
