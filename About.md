@@ -43,6 +43,8 @@ Other Funtions include
 
 <div>
 <h4>Love to Hear From You.</h4>
+    <i class="fa-solid fa-circle-envelope"></i>
     <a href="mailto:treasureedesemhen500@gmail.com">Email Me</a>
+    <i class="fa-brands fa-github"></i>
     <a href="https://github.com/creative-tutorials">My GitHub Profile</a>
 </div>
