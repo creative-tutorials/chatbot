@@ -9,6 +9,7 @@ The app is a simple Chat Bot created using React
 using the User Input to send the message to the Bot
 using react useState hook to set the activity status of the Bot
 Other Funtions include
+#[]
     <li>
         Capturing date and time
     </li>
@@ -39,12 +40,7 @@ Other Funtions include
     <li>
         Setting limit to some bad words - if the user input contains some bad words the bot will warn the user and status will be set to inactive
     </li>
-
-
-<div>
-<h4>Love to Hear From You.</h4>
-    <i class="fa-solid fa-circle-envelope"></i>
-    <a href="mailto:treasureedesemhen500@gmail.com">Email Me</a>
-    <i class="fa-brands fa-github"></i>
-    <a href="https://github.com/creative-tutorials" target="_blank">My GitHub Profile</a>
-</div>
+    #[]
+        <h4>Love to Hear From You.</h4>
+        [Email](mailto:treasureedesemhen500@gmail.com)
+        [Github Profile](https://github.com/creative-tutorials)
