@@ -1,56 +1,51 @@
 # About This App
 This app is a simple React app.
-It uses the [create-react-app]()
+It uses the [create-react-app](https://create-react-app.dev/)
 
 # Basic Funtion of The App
-The app is a simple Chat Bot created using [React]()
+The app is a simple Chat Bot created using React
 
 # The App Inclucdes The Followin Function
 using the User Input to send the message to the Bot
 using react useState hook to set the activity status of the Bot
-Other [Funtions include](
-    <ol>
+Other Funtions include
+    <li>
         Capturing date and time
-    </ol>
-    <ol>
+    </li>
+    <li>
         Capturing the user input
-    </ol>
-    <ol>
+    </li>
+    <li>
         Sending the message to the Bot
-    </ol>
-    <ol>
+    </li>
+    <li>
         Capturing the Bot response
-    </ol>
-    <ol>
+    </li>
+    <li>
         Displaying the Bot response
-    </ol>
-    <ol>
+    </li>
+    <li>
         Displaying the User Input
-    </ol>
-    <ol>
+    </li>
+    <li>
         Setting the activity status of the Bot
-    </ol>
-    <ol>
+    </li>
+    <li>
         Displaying the activity status of the Bot
-    </ol>
-    <ol>
+    </li>
+    <li>
         Setting limit to the Bot response - if reaches a certain date and time the bot will stop responding and status will be set to inactive
-    </ol>
-    <ol>
+    </li>
+    <li>
         Setting limit to some bad words - if the user input contains some bad words the bot will warn the user and status will be set to inactive
-    </ol>
-)
+    </li>
 
-<h4>
-    Love to Hear From You
-</h4>
+<h4>Love to Hear From You.</h4>
     <p>
-        <a>
             <i class="fa fa-envelope-o" aria-hidden="true"></i>
             <a href="mailto:treasureedesemhen500@gmail.com"></a>
     </p>
     <p>
-        <a>
             <i class="fa fa-github" aria-hidden="true"></i>
             <a href="https://github.com/creative-tutorials>"></a>
     </p>
