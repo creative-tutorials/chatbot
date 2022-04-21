@@ -1,18 +1,14 @@
 # About This App
-[]: # 
-[]: # This app is a simple React app.
-[]: # 
-[]: # It uses the [create-react-app]()
+This app is a simple React app.
+It uses the [create-react-app]()
 
 # Basic Funtion of The App
-[]: # 
-[]: # The app is a simple Chat Bot created using [React]()
+The app is a simple Chat Bot created using [React]()
 
 # The App Inclucdes The Followin Function
-[]: # 
-[]: # using the User Input to send the message to the Bot
-[]: # using react useState hook to set the activity status of the Bot
-[]: Other [Funtions include](
+using the User Input to send the message to the Bot
+using react useState hook to set the activity status of the Bot
+Other [Funtions include](
     <ol>
         Capturing date and time
     </ol>
