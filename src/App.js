@@ -10,19 +10,20 @@ function App() {
   const day = date.getDay();
   const month = date.getMonth();
   const year = date.getFullYear();
+
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   const [time, setTime] = useState(`${hours}:${minutes}:${seconds}`); //using the useState hook to get the data from the local time and set it to the time variable
   const [dateTime, setDateTime] = useState(`${days[day]}, ${day} ${months[month]} ${year}`); //using the useState hook to get the data from the local date and set it to the dateTime variable
-  console.log(dateTime);
+  // console.log(dateTime);
 
   const checkStatus = (e) => {
     let isActive = true;
     if(dateTime === 'Thursday, 20 April 2022'){ //if the dateTime is Thursday, 20 April 2022, the bot will be inactive
       isActive = false;
     }
-    const status = document.querySelector('.status');
-    if(isActive === true){
+    const status = document.querySelector('.status'); // selecting the status class
+    if(isActive === true){ //if the bot is active
       status.innerHTML = 'Active';
       status.style.color = 'green';
     }else{
