@@ -35,7 +35,7 @@ function App() {
     const botMessage = document.querySelector('#message1');
     const humanMessage = document.querySelector('#message2');
     
-    let badwords = ['fuck|bad|stupid|useless|bitch|crazy|nonsense|shit'] //adding the bad words
+    let badwords = ['fuck|bad|stupid|useless|bitch|crazy|nonsense'] //adding the bad words
     let words = new RegExp(badwords);
     if(words.test(document.querySelector('#input').value)){ // if the input contains bad words
       botMessage.innerHTML = 'Please do not use bad words'; // display this message
@@ -44,7 +44,10 @@ function App() {
     let welcome = ['Sup|sup|Hello|Hi|hello|hi|Yo|Halla|yello|yelow']
     let words2 = new RegExp(welcome);
     if(words2.test(document.querySelector('#input').value)){
+      const status = document.querySelector('.status');
       botMessage.innerHTML = 'Hello There how are you doing today?';
+      status.innerHTML = 'Active';
+      status.style.color = 'green';
     }
 
     let bye = ['Bye|bye|Goodbye|goodbye|See you later|see you later|See you|see you']
@@ -54,6 +57,7 @@ function App() {
       botMessage.innerHTML = 'Bye, have a nice day';
       setTimeout(() => {
         status.innerHTML = 'Not active';
+        status.style.color = 'red';
       }, 5000);
     }
 
@@ -66,7 +70,10 @@ function App() {
     let how = ['How are you|how are you doing|how are you doing today|how are you doing today|How are you|how are you']
     let words5 = new RegExp(how);
     if(words5.test(document.querySelector('#input').value)){
+      const status = document.querySelector('.status');
       botMessage.innerHTML = 'I am fine, thank you';
+      status.innerHTML = 'Active';
+      status.style.color = 'green';
     }
 
     let good = ["That's good|Sound nice|that sounds awesome|that sounds great|Great|great|sounds great|that's sounds good|Nice|nice"]
